@@ -28,6 +28,11 @@ export const siteConfig = {
   hoursAr: "ساعات الدوام الداخلي غير منشورة على الموقع",
   addressAr: "مجمّع كادبي الصناعي، الأردن",
   promiseAr: "طلب مستوى حماية لا يُسعَّر علناً — الاعتماد أمني ومبيعات معاً",
+  engine: "تأهيل حماية",
+  gap: "الموقع إنجليزي وفيه نموذج عرض سعر. لا مسار عربي سري لتأهيل الطلب قبل كشف المواصفة.",
+  industry: "تصفيح مركبات مدنية وعسكرية",
+  hero: "العميل لا يشتري سيارة. يشتري مستوى حماية. الاقتراح يظهر هنا والإفصاح يبقى بشرياً",
+  websiteHost: "viparmouring.com",
   developer: { nameAr: "م. صهيب الصالح", phone: "962787523192", prefill: "VipArmouring" },
 } as const;
 export function getDiscoveryFormUrl(): string { return readPublic("NEXT_PUBLIC_DISCOVERY_FORM_URL"); }
